@@ -1,0 +1,35 @@
+﻿
+<div ng-controller="DetailsController">
+    <div class="row">
+        <h1 style="margin-top: 50px; margin-bottom: 50px; text-align: center; border: 0">Weather details:</h1>
+    </div>
+
+    <div class="row" style="text-align: center">
+        <label style="width: 150px; text-align: left">Country</label>
+        <input type="text" ng-model="Weather.location.country" readonly="readonly"/>
+    </div>
+
+    <div class="row" style="text-align: center; margin-top: 10px">
+        <label style="width: 150px; text-align: left">City</label>
+        <input type="text" ng-model="Weather.location.city" readonly="readonly"/>
+    </div>
+
+    <div class="row" style="text-align: center; margin-top: 10px">
+        <label style="width: 150px; text-align: left">Temperature format</label>
+        <input type="text" ng-model="Weather.temperature.format" readonly="readonly" />
+    </div>
+
+    <div class="row" style="text-align: center; margin-top: 10px">
+        <label style="width: 150px; text-align: left">Temperature</label>
+        <input type="text" ng-model="Weather.temperature.value" readonly="readonly" />
+    </div>
+
+    <div class="row" style="text-align: center; margin-top: 10px">
+        <label style="width: 150px; text-align: left">Humidity</label>
+        <input type="text" ng-model="Weather.humidity" readonly="readonly">
+    </div>
+</div>
+
+
+
+

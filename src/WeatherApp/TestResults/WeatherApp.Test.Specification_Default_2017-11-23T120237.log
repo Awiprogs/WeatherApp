@@ -1,0 +1,54 @@
+﻿2017-11-23T12:02:37.7268522+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-11-23T12:02:37.8484783+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-11-23T12:02:37.8494555+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+2017-11-23T12:02:37.8504225+01:00;VSTestExecutionThread;Info;Profile: Default
+2017-11-23T12:02:48.9664428+01:00;Thread#16;Info;Discovering target: Default
+2017-11-23T12:02:48.9683980+01:00;Thread#16;Info;Discovering tests from assembly: C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+Appdomain Disposed
+Test Suite Dump
+#0: WeatherApp.Test.Specification/Default - 
+#1: Default - 
+#2: WeatherApp.Test.Specification - 
+#3: LocalWeatherInAGivenCity - 
+#5: Get weather for Gdansk - Poland - TestAssembly:WeatherApp.Test.Specification/Feature:LocalWeatherInAGivenCity/Scenario:Get+weather+for+Gdansk+-+Poland
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for WeatherApp.Test.Specification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\awigl\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0-rc001\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a webpage with a form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenAWebpageWithAForm() (1,6s)
+Thread#0:B:And I type in 'Poland'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenITypeIn("Poland") (0,4s)
+Thread#0:B:And I also type in 'Gdansk'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenIAlsoTypeIn("Gdansk") (0,6s)
+Thread#0:B:When I submit the form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.WhenISubmitTheForm() (6,7s)
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Gdansk, Poland according to the official weather reports
+Thread#0:T:pending: LocalWeatherInAGivenCitySteps.ThenIReceiveTheTemperatureAndHumidityAccordingToTheOfficialWeatherReports()
+Thread#0:T:Pending: One or more step definitions are not implemented yet.
+Thread#0:T:  LocalWeatherInAGivenCitySteps.ThenIReceiveTheTemperatureAndHumidityAccordingToTheOfficialWeatherReports()
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Pending within 11,9432103 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

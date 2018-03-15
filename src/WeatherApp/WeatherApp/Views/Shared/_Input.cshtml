@@ -1,0 +1,26 @@
+﻿@model WeatherApp.Models.WeatherInputModel
+    
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <h1 style="margin-top: 50px; margin-bottom: 50px; text-align: center">Select location:</h1>
+    </div>
+
+    @Html.ValidationMessageFor(m => m.Country, null, new { @class = "text-danger" })
+    <div class="row" style="text-align: center">
+        @Html.LabelFor(m => m.Country, new {style = "width: 150px; text-align: left"})
+        @Html.TextBoxFor(m => m.Country)<br/>
+    </div>
+
+    <div class="row" style="text-align: center; margin-top: 15px">
+        @Html.ValidationMessageFor(m => m.City, null, new { @class = "text-danger" })
+    </div>
+    <div class="row" style="text-align: center">
+        @Html.LabelFor(m => m.City, new {style = "width: 150px; text-align: left"})
+        @Html.TextBoxFor(m => m.City)
+    </div>
+
+    <div class="row" style="text-align: center">
+        <button type="submit" style="margin-top: 50px;">Show weather</button>
+    </div>
+}

@@ -1,0 +1,30 @@
+﻿@model WeatherApp.Models.WeatherDetailsModel
+    
+<div class="row">
+    <h1 style="margin-top: 50px; margin-bottom: 50px; text-align: center; border: 0">Weather details:</h1>
+</div>
+
+<div class="row" style="text-align: center">
+    @Html.LabelFor(m => m.Country, new { style = "width: 150px; text-align: left" })
+    @Html.TextBoxFor(m => m.Country, new { @readonly = "true" })
+</div>
+
+<div class="row" style="text-align: center; margin-top: 10px">
+    @Html.LabelFor(m => m.City, new { style = "width: 150px; text-align: left" })
+    @Html.TextBoxFor(m => m.City, new { @readonly = "true" })
+</div>
+
+<div class="row" style="text-align: center; margin-top: 10px">
+    @Html.LabelFor(m => m.TemperatureFormat, "Temperature format", new { style = "width: 150px; text-align: left" })
+    @Html.TextBoxFor(m => m.TemperatureFormat, new { @readonly = "true" })
+</div>
+
+<div class="row" style="text-align: center; margin-top: 10px">
+    @Html.LabelFor(m => m.Temperature, new { style = "width: 150px; text-align: left" })
+    @Html.TextBoxFor(m => m.Temperature, new { @readonly = "true" })
+</div>
+
+<div class="row" style="text-align: center; margin-top: 10px">
+    @Html.LabelFor(m => m.Humidity, new { style = "width: 150px; text-align: left" })
+    @Html.TextBoxFor(m => m.Humidity, new { @readonly = "true" })
+</div>

@@ -1,0 +1,23 @@
+﻿2017-11-24T13:11:34.7941916+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-11-24T13:11:34.8992865+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-11-24T13:11:34.8997869+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+2017-11-24T13:11:34.9002880+01:00;VSTestExecutionThread;Info;Profile: Default
+2017-11-24T13:11:47.9812629+01:00;Thread#8;Info;Discovering target: Default
+2017-11-24T13:11:47.9822490+01:00;Thread#8;Info;Discovering tests from assembly: C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+Appdomain Disposed
+Test Suite Dump
+#0: WeatherApp.Test.Specification/Default - 
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

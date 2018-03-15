@@ -1,0 +1,4 @@
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Domain\bin\Debug\WeatherApp.WebApi.Domain.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Domain\bin\Debug\WeatherApp.WebApi.Domain.pdb
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Domain\obj\Debug\WeatherApp.WebApi.Domain.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Domain\obj\Debug\WeatherApp.WebApi.Domain.pdb

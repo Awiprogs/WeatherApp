@@ -1,0 +1,96 @@
+﻿2017-11-24T13:20:31.6630511+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-11-24T13:20:31.7566177+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-11-24T13:20:31.7581191+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+2017-11-24T13:20:31.7586195+01:00;VSTestExecutionThread;Info;Profile: Default
+2017-11-24T13:20:42.8217987+01:00;Thread#17;Info;Discovering target: Default
+2017-11-24T13:20:42.8222807+01:00;Thread#17;Info;Discovering tests from assembly: C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+Appdomain Disposed
+Test Suite Dump
+#0: WeatherApp.Test.Specification/Default - 
+#1: Default - 
+#2: WeatherApp.Test.Specification - 
+#3: LocalWeatherInAGivenCity - 
+#4: Get weather for Warsaw - Poland - TestAssembly:WeatherApp.Test.Specification/Feature:LocalWeatherInAGivenCity/Scenario:Get+weather+for+Warsaw+-+Poland
+#5: Get weather for Gdansk - Poland - TestAssembly:WeatherApp.Test.Specification/Feature:LocalWeatherInAGivenCity/Scenario:Get+weather+for+Gdansk+-+Poland
+#6: Get weather for Berlin - Germany - TestAssembly:WeatherApp.Test.Specification/Feature:LocalWeatherInAGivenCity/Scenario:Get+weather+for+Berlin+-+Germany
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for WeatherApp.Test.Specification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\awigl\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0-rc001\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a webpage with a form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenAWebpageWithAForm() (0,0s)
+Thread#0:B:And I type in 'Poland'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenITypeIn("Poland") (0,0s)
+Thread#0:B:And I also type in 'Warsaw'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenIAlsoTypeIn("Warsaw") (0,0s)
+Thread#0:B:When I submit the form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.WhenISubmitTheForm() (0,2s)
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Warsaw, Poland according to the official weather reports
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.ThenIReceiveTheTemperatureAndHumidityAccordingToTheOfficialWeatherReports() (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0,3875548 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given a webpage with a form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenAWebpageWithAForm() (0,0s)
+Thread#0:B:And I type in 'Poland'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenITypeIn("Poland") (0,0s)
+Thread#0:B:And I also type in 'Gdansk'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenIAlsoTypeIn("Gdansk") (0,0s)
+Thread#0:B:When I submit the form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.WhenISubmitTheForm() (0,2s)
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Gdansk, Poland according to the official weather reports
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.ThenIReceiveTheTemperatureAndHumidityAccordingToTheOfficialWeatherReports() (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0,1651379 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given a webpage with a form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenAWebpageWithAForm() (0,0s)
+Thread#0:B:And I type in 'Germany'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenITypeIn("Germany") (0,0s)
+Thread#0:B:And I also type in 'Berlin'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenIAlsoTypeIn("Berlin") (0,0s)
+Thread#0:B:When I submit the form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.WhenISubmitTheForm() (0,1s)
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Berlin, Germany according to the official weather reports
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.ThenIReceiveTheTemperatureAndHumidityAccordingToTheOfficialWeatherReports() (0,0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0,1407052 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 3
+Succeeded: 3
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

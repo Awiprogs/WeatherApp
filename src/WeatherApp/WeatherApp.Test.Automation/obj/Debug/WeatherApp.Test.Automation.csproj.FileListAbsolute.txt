@@ -1,0 +1,10 @@
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\WeatherApp.Test.Automation.dll.config
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\WeatherApp.Test.Automation.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\WeatherApp.Test.Automation.pdb
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\Ionic.Zip.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\Newtonsoft.Json.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\WebDriver.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\bin\Debug\WebDriver.xml
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\obj\Debug\WeatherApp.Test.Automation.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Automation\obj\Debug\WeatherApp.Test.Automation.pdb

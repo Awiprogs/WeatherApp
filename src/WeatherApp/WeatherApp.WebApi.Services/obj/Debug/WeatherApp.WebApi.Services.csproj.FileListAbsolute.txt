@@ -1,0 +1,17 @@
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\WeatherApp.WebApi.Services.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\WeatherApp.WebApi.Services.pdb
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\AutoMapper.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\System.Net.Http.Formatting.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\System.Web.Http.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\WeatherApp.WebApi.Domain.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\WeatherApp.WebApi.Domain.pdb
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\AutoMapper.xml
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\System.Net.Http.Formatting.xml
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\bin\Debug\System.Web.Http.xml
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\obj\Debug\WeatherApp.WebApi.Services.csprojResolveAssemblyReference.cache
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\obj\Debug\WeatherApp.WebApi.Services.Properties.Resources.resources
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\obj\Debug\WeatherApp.WebApi.Services.csproj.GenerateResource.Cache
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\obj\Debug\WeatherApp.WebApi.Services.dll
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.WebApi.Services\obj\Debug\WeatherApp.WebApi.Services.pdb

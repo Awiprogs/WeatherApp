@@ -1,0 +1,63 @@
+﻿2017-11-23T11:32:45.1482023+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-11-23T11:32:45.3186931+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-11-23T11:32:45.3206358+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+2017-11-23T11:32:45.3216138+01:00;VSTestExecutionThread;Info;Profile: Default
+2017-11-23T11:32:59.4401648+01:00;Thread#15;Info;Discovering target: Default
+2017-11-23T11:32:59.4411432+01:00;Thread#15;Info;Discovering tests from assembly: C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+Appdomain Disposed
+Test Suite Dump
+#0: WeatherApp.Test.Specification/Default - 
+#1: Default - 
+#2: WeatherApp.Test.Specification - 
+#5: LocalWeatherInAGivenCity - 
+#6: Get weather for Warsaw - Poland - TestAssembly:WeatherApp.Test.Specification/Feature:LocalWeatherInAGivenCity/Scenario:Get+weather+for+Warsaw+-+Poland
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for WeatherApp.Test.Specification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\awigl\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0-rc001\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a webpage with a form
+Thread#0:T:error: The remote server returned an error: (404) Not Found.
+Thread#0:B:And I type in 'Poland'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I also type in 'Warsaw'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I submit the form
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Warsaw, Poland according to the official weather reports
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 21,2967795 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given a webpage with a form
+Thread#0:T:error: The remote server returned an error: (404) Not Found.
+Thread#0:B:And I type in 'Poland'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I also type in 'Warsaw'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I submit the form
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Warsaw, Poland according to the official weather reports
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatc

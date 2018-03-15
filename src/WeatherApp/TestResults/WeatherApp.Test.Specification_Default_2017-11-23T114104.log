@@ -1,0 +1,72 @@
+﻿2017-11-23T11:41:04.3812333+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-11-23T11:41:04.5032872+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-11-23T11:41:04.5052490+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+2017-11-23T11:41:04.5062344+01:00;VSTestExecutionThread;Info;Profile: Default
+2017-11-23T11:41:09.6410588+01:00;Thread#15;Info;Discovering target: Default
+2017-11-23T11:41:09.6420221+01:00;Thread#15;Info;Discovering tests from assembly: C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+Appdomain Disposed
+Test Suite Dump
+#0: WeatherApp.Test.Specification/Default - 
+#1: Default - 
+#2: WeatherApp.Test.Specification - 
+#5: LocalWeatherInAGivenCity - 
+#7: Get weather for Gdansk - Poland - TestAssembly:WeatherApp.Test.Specification/Feature:LocalWeatherInAGivenCity/Scenario:Get+weather+for+Gdansk+-+Poland
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for WeatherApp.Test.Specification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\awigl\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0-rc001\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a webpage with a form
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenAWebpageWithAForm() (3,0s)
+Thread#0:B:And I type in 'Poland'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenITypeIn("Poland") (2,6s)
+Thread#0:B:And I also type in 'Gdansk'
+Thread#0:T:done: LocalWeatherInAGivenCitySteps.GivenIAlsoTypeIn("Gdansk") (0,0s)
+Thread#0:B:When I submit the form
+Thread#0:T:pending: LocalWeatherInAGivenCitySteps.WhenISubmitTheForm()
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Gdansk, Poland according to the official weather reports
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I receive the temperature and humidity conditions on the day for Gdansk, Poland according to the official weather reports")]
+Thread#0:T:public void ThenIReceiveTheTemperatureAndHumidityConditionsOnTheDayForGdanskPolandAccordingToTheOfficialWeatherReports()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:Pending: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Then(@"I receive the temperature and humidity conditions on the day for Gdansk, Poland according to the official weather reports")]
+Thread#0:T:public void ThenIReceiveTheTemperatureAndHumidityConditionsOnTheDayForGdanskPolandAccordingToTheOfficialWeatherReports()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #7/0 is finished on thread #0 as Pending within 10,9255476 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

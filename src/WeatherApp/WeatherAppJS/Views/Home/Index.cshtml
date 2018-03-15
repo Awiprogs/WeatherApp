@@ -1,0 +1,42 @@
+﻿@using System.Configuration
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/Scripts/angular.min.js"></script>
+    @Styles.Render("~/Content/css")
+    <title>WeatherApp</title>
+</head>
+
+<body ng-app="WeatherAppAngularJS">
+
+    <script src="~/Scripts/WeatherAppAngularJS.js"></script>
+    
+    <script type="text/javascript">
+        app.factory('configData', function () {
+            return { WebApiUrl: '@ConfigurationManager.AppSettings["ServiceUrl"]' };
+        });
+    </script>
+
+    <script src="~/Scripts/Resources.js"></script>
+    <script src="~/Scripts/Controllers/MainController.js"></script>
+    <script src="~/Scripts/Controllers/DetailsController.js"></script>
+    <script src="~/Scripts/Controllers/ErrorController.js"></script>
+    
+<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a data-ng-href="@ConfigurationManager.AppSettings["AppUrl"]" class="navbar-brand" target="_self">WeatherApp</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content" style="text-align: center;">
+        <div ng-include="'/WeatherAppJS/Content/Views/Home/main.html'"></div>
+
+        <hr/>
+        <footer>
+            <p>&copy; @DateTime.Now.Year - WeatherApp</p>
+        </footer>
+    </div>
+</body>
+</html>

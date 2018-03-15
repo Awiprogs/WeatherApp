@@ -1,0 +1,1 @@
+C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Tests\obj\Debug\WeatherApp.Tests.csprojResolveAssemblyReference.cache

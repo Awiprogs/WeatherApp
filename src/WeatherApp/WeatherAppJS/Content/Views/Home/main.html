@@ -1,0 +1,37 @@
+﻿
+<form ng-controller="MainController" name="InputPageForm">
+    
+    <div id="errorDiv">
+        <div ng-include="errorUrl"></div>
+    </div>
+
+    <div class="row">
+        <h1 style="margin-top: 50px; margin-bottom: 50px; text-align: center">Select location:</h1>
+    </div>
+    
+    <span class="text-danger" ng-show="countryInputInvalid">The Country field is required.</span>
+    <div class="row" style="text-align: center">
+        <label style="width: 150px; text-align: left">Country</label>
+        <input name="countryInput" type="text" ng-model="WeatherInputModel.Country" required/>
+    </div>
+    
+    
+    <div class="row" style="text-align: center; margin-top: 15px">
+        <span class="text-danger" ng-show="cityInputInvalid">The City field is required.</span>
+    </div>
+    <div class="row" style="text-align: center">
+        <label style="width: 150px; text-align: left">City</label>
+        <input name="cityInput" type="text" ng-model="WeatherInputModel.City" required/>
+    </div>
+
+    <div class="row" style="text-align: center">
+        <button ng-click="ShowWeather()" type="button" name="showBtn" style="margin-top: 50px;">Show weather</button>
+    </div>
+
+    <div id="detailsDiv">
+        <div ng-include="detailsUrl"></div>
+    </div>
+
+</form>
+
+

@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{267308CD-F786-4F08-8E91-F1468D1F8C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.WebApi", "WeatherAppWebAPI\WeatherApp.WebApi.csproj", "{12A4135F-9286-480E-8B9F-967C571C8F08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9EEA42A9-3CAB-4B50-AAF5-630D81ACEE01} = {9EEA42A9-3CAB-4B50-AAF5-630D81ACEE01}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAppJS", "WeatherAppJS\WeatherAppJS.csproj", "{56440D12-A229-4A18-ACD8-9E06081B8EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.WebApi.Services", "WeatherApp.WebApi.Services\WeatherApp.WebApi.Services.csproj", "{7FD04ED2-169B-4235-8707-2D6DCDDE4B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.WebApi.Domain", "WeatherApp.WebApi.Domain\WeatherApp.WebApi.Domain.csproj", "{9EEA42A9-3CAB-4B50-AAF5-630D81ACEE01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7C5BFA21-E3C6-4DDD-BCB0-692DC6F8C9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Test.Unit", "WeatherApp.Test.Unit\WeatherApp.Test.Unit.csproj", "{7FF7CE26-DBFE-4D15-B5B0-A9AA60849716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Test.Integration", "WeatherApp.Test.Integration\WeatherApp.Test.Integration.csproj", "{C5991563-CA8C-419C-8F6B-11B1BC70BD48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Test.Automation", "WeatherApp.Test.Automation\WeatherApp.Test.Automation.csproj", "{50505A8E-2D86-473E-BF91-7258B46EB993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Test.Specification", "WeatherApp.Test.Specification\WeatherApp.Test.Specification.csproj", "{FB98DFA8-F30C-4066-8143-73E597C039D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267308CD-F786-4F08-8E91-F1468D1F8C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267308CD-F786-4F08-8E91-F1468D1F8C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267308CD-F786-4F08-8E91-F1468D1F8C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267308CD-F786-4F08-8E91-F1468D1F8C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A4135F-9286-480E-8B9F-967C571C8F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A4135F-9286-480E-8B9F-967C571C8F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A4135F-9286-480E-8B9F-967C571C8F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A4135F-9286-480E-8B9F-967C571C8F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56440D12-A229-4A18-ACD8-9E06081B8EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56440D12-A229-4A18-ACD8-9E06081B8EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56440D12-A229-4A18-ACD8-9E06081B8EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56440D12-A229-4A18-ACD8-9E06081B8EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD04ED2-169B-4235-8707-2D6DCDDE4B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD04ED2-169B-4235-8707-2D6DCDDE4B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD04ED2-169B-4235-8707-2D6DCDDE4B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD04ED2-169B-4235-8707-2D6DCDDE4B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEA42A9-3CAB-4B50-AAF5-630D81ACEE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEA42A9-3CAB-4B50-AAF5-630D81ACEE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEA42A9-3CAB-4B50-AAF5-630D81ACEE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEA42A9-3CAB-4B50-AAF5-630D81ACEE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF7CE26-DBFE-4D15-B5B0-A9AA60849716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF7CE26-DBFE-4D15-B5B0-A9AA60849716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF7CE26-DBFE-4D15-B5B0-A9AA60849716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF7CE26-DBFE-4D15-B5B0-A9AA60849716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5991563-CA8C-419C-8F6B-11B1BC70BD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5991563-CA8C-419C-8F6B-11B1BC70BD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5991563-CA8C-419C-8F6B-11B1BC70BD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5991563-CA8C-419C-8F6B-11B1BC70BD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50505A8E-2D86-473E-BF91-7258B46EB993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50505A8E-2D86-473E-BF91-7258B46EB993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50505A8E-2D86-473E-BF91-7258B46EB993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50505A8E-2D86-473E-BF91-7258B46EB993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB98DFA8-F30C-4066-8143-73E597C039D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB98DFA8-F30C-4066-8143-73E597C039D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB98DFA8-F30C-4066-8143-73E597C039D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB98DFA8-F30C-4066-8143-73E597C039D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FF7CE26-DBFE-4D15-B5B0-A9AA60849716} = {7C5BFA21-E3C6-4DDD-BCB0-692DC6F8C9B9}
+		{C5991563-CA8C-419C-8F6B-11B1BC70BD48} = {7C5BFA21-E3C6-4DDD-BCB0-692DC6F8C9B9}
+		{50505A8E-2D86-473E-BF91-7258B46EB993} = {7C5BFA21-E3C6-4DDD-BCB0-692DC6F8C9B9}
+		{FB98DFA8-F30C-4066-8143-73E597C039D9} = {7C5BFA21-E3C6-4DDD-BCB0-692DC6F8C9B9}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ar-wits.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WeatherApp\\WeatherApp.csproj
+		SccProjectName1 = WeatherApp
+		SccLocalPath1 = WeatherApp
+		SccProjectUniqueName2 = WeatherAppJS\\WeatherAppJS.csproj
+		SccProjectName2 = WeatherAppJS
+		SccLocalPath2 = WeatherAppJS
+		SccProjectUniqueName3 = WeatherApp.WebApi.Services\\WeatherApp.WebApi.Services.csproj
+		SccProjectName3 = WeatherApp.WebApi.Services
+		SccLocalPath3 = WeatherApp.WebApi.Services
+		SccProjectUniqueName4 = WeatherAppWebAPI\\WeatherApp.WebApi.csproj
+		SccProjectName4 = WeatherAppWebAPI
+		SccLocalPath4 = WeatherAppWebAPI
+		SccProjectUniqueName5 = WeatherApp.WebApi.Domain\\WeatherApp.WebApi.Domain.csproj
+		SccProjectName5 = WeatherApp.WebApi.Domain
+		SccLocalPath5 = WeatherApp.WebApi.Domain
+		SccProjectUniqueName6 = WeatherApp.Test.Unit\\WeatherApp.Test.Unit.csproj
+		SccProjectTopLevelParentUniqueName6 = WeatherApp.sln
+		SccProjectName6 = WeatherApp.Test.Unit
+		SccLocalPath6 = WeatherApp.Test.Unit
+		SccProjectUniqueName7 = WeatherApp.Test.Integration\\WeatherApp.Test.Integration.csproj
+		SccProjectTopLevelParentUniqueName7 = WeatherApp.sln
+		SccProjectName7 = WeatherApp.Test.Integration
+		SccLocalPath7 = WeatherApp.Test.Integration
+		SccProjectUniqueName8 = WeatherApp.Test.Automation\\WeatherApp.Test.Automation.csproj
+		SccProjectTopLevelParentUniqueName8 = WeatherApp.sln
+		SccProjectName8 = WeatherApp.Test.Automation
+		SccLocalPath8 = WeatherApp.Test.Automation
+		SccProjectUniqueName9 = WeatherApp.Test.Specification\\WeatherApp.Test.Specification.csproj
+		SccProjectTopLevelParentUniqueName9 = WeatherApp.sln
+		SccProjectName9 = WeatherApp.Test.Specification
+		SccLocalPath9 = WeatherApp.Test.Specification
+	EndGlobalSection
+EndGlobal

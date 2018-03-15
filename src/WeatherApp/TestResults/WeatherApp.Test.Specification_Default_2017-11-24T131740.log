@@ -1,0 +1,95 @@
+﻿2017-11-24T13:17:40.4016083+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-11-24T13:17:40.5293347+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-11-24T13:17:40.5308460+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+2017-11-24T13:17:40.5318468+01:00;VSTestExecutionThread;Info;Profile: Default
+2017-11-24T13:17:49.7062131+01:00;Thread#15;Info;Discovering target: Default
+2017-11-24T13:17:49.7077124+01:00;Thread#15;Info;Discovering tests from assembly: C:\Andrzej\Development\AW\WeatherApp\WeatherApp.Test.Specification\bin\Debug\WeatherApp.Test.Specification.dll
+Appdomain Disposed
+Test Suite Dump
+#0: WeatherApp.Test.Specification/Default - 
+#1: Default - 
+#2: WeatherApp.Test.Specification - 
+#3: LocalWeatherInAGivenCity - 
+#6: Get weather for Berlin - Germany - TestAssembly:WeatherApp.Test.Specification/Feature:LocalWeatherInAGivenCity/Scenario:Get+weather+for+Berlin+-+Germany
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for WeatherApp.Test.Specification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\awigl\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0-rc001\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given a webpage with a form
+Thread#0:T:error: The remote server returned an error: (404) Not Found.
+Thread#0:B:And I type in 'Germany'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I also type in 'Berlin'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I submit the form
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Berlin, Germany according to the official weather reports
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 15,1716674 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given a webpage with a form
+Thread#0:T:error: The remote server returned an error: (404) Not Found.
+Thread#0:B:And I type in 'Germany'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I also type in 'Berlin'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I submit the form
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Berlin, Germany according to the official weather reports
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 0,0690365 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:B:Given a webpage with a form
+Thread#0:T:error: The remote server returned an error: (404) Not Found.
+Thread#0:B:And I type in 'Germany'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I also type in 'Berlin'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I submit the form
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I receive the temperature and humidity conditions on the day for Berlin, Germany according to the official weather reports
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 0,0699089 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
